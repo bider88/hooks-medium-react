@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Header from './components/commons/Navbar';
 import BooleanState from './components/BooleanState';
+import ObjectState from './components/ObjectState/ObjectState';
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
       <div className="container">
         <button className="btn btn-primary" onClick={addClicks}>Clicks ({ state.clicks })</button>
         <BooleanState/>
+        <ObjectState/>
       </div>
     </div>
   )
