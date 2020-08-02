@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/commons/Navbar';
 import BooleanState from './components/BooleanState';
 import ObjectState from './components/ObjectState/ObjectState';
+import UseEffectHook from './components/UseEffectHook';
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const App = () => {
         <button className="btn btn-primary" onClick={addClicks}>Clicks ({ state.clicks })</button>
         <BooleanState/>
         <ObjectState/>
+        <UseEffectHook/>
       </div>
     </div>
   )
