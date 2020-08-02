@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Header from './components/commons/Navbar';
+import BooleanState from './components/BooleanState';
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
       </div>
       <div className="container">
         <button className="btn btn-primary" onClick={addClicks}>Clicks ({ state.clicks })</button>
+        <BooleanState/>
       </div>
     </div>
   )
