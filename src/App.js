@@ -7,6 +7,7 @@ import ObjectState from './components/ObjectState/ObjectState';
 import UseEffectHook from './components/UseEffectHook';
 import UseEffectControl from './components/UseEffectControl';
 import UseEffectHookHttp from './components/UseEffectHookHttp';
+import UseContext from './components/UseContext/UseContext';
 
 const App = () => {
 
@@ -36,6 +37,7 @@ const App = () => {
         <UseEffectHook/>
         <UseEffectControl/>
         <UseEffectHookHttp/>
+        <UseContext/>
       </div>
     </div>
   )
